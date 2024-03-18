@@ -1,0 +1,34 @@
+.italic {
+    font-style: italic;
+}
+
+.romeo {
+    text-align: center;
+    color: #883ac4;
+    font-size: 36px;
+}
+
+.graycl {
+    color: grey;
+    font-size: 24px;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.cardRed {
+    font-size: 24px;
+    color: red;
+    display: inline-block;
+
+}
+
+.cardBlack {
+    font-size: 24px;
+    display: inline-block;
+}
+
+.card-container {
+    white-space: nowrap;
+}
