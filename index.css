@@ -2,10 +2,12 @@
     font-style: italic;
 }
 body {
-    -webkit-user-select: none; /* Safari */
-    -ms-user-select: none; /* IE 10 and IE 11 */
-    user-select: none; /* Standard syntax */
-  }
+    -webkit-touch-callout: none; /* Заборона вибору тексту для Safari */
+    -webkit-user-select: none; /* Заборона вибору тексту для Safari */
+    -moz-user-select: none; /* Заборона вибору тексту для Firefox */
+    -ms-user-select: none; /* Заборона вибору тексту для IE */
+    user-select: none; /* Заборона вибору тексту для інших браузерів */
+}
 
 .romeo {
     text-align: center;
